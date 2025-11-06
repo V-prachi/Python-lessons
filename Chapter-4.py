@@ -55,6 +55,5 @@ print("Welcome python chapter-4")
 # print("a==b=",a==b)
 # print("a!=b=",a!=b)
 
-print(ord("a"))     #ord() => change character into ASCII value
-print(chr(190))    # chr() => change ASCII value into character
-print(chr(10))    # chr() => change ASCII value into character
+# print(ord("a"))     #ord() => change character into ASCII value
+# print(chr(190))    # chr() => change ASCII value into character
