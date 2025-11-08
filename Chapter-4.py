@@ -86,3 +86,69 @@ print("Welcome python chapter-4")
  
 # print("5-3+3:",5-3+3)   # same presedece hai isle left to right evaluate hoga
 # print(2**3**2)  # note:- exponent is the only opertor in the same presedence jo right to left evaluate  karta hai 
+
+
+# 4.7 $$$$$$$$$$$$$$$$$$$$$$$$$$$$  Conditional Statements  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+# # ________ Example 1 _____________
+# x=int(input(("Enter the x value")))
+
+# if x<4:
+#   print("x is less than 4")
+# else:
+#   print("x is greater than 4")
+
+# # ________ Example 3 _____________
+# x=int(input(("Enter the x value")))
+# if x>0:
+#   print("This is first line")
+#   print("This is second line")
+#   print(".........")
+#   print("End")
+# print("After if block")
+
+# # ________ Example 4 _____________
+# x=int(input(("Enter the x value")))
+# if x>0:
+#   print(" +Ve Value")
+#   print("This is first block")
+# if x<0:
+#   print(" -Ve Value")
+#   print("This is second block")
+
+# # ________ Example 5 _____________
+# x=input(("Enter the name"))
+# if x=="VPrachi":
+#   print("heloo",x)
+#   print("Welcome")
+# print("How are you .........",x)
+
+# 4.7.2 # ________ Example 1 _____________
+# x=int(input(("Enter the number")))
+# if x>0:
+#   print("This is positive number +Ve")
+# else:
+#   print("This is Negative number -Ve")
+
+# ----Example 2----&&&&&&&&& Find the Biggest value of given 2 numbers from the command line.
+# x=int(input(("Enter the first number")))
+# y=int(input(("Enter the second number")))
+# if x>y:
+#   print("This is the bigget value between {0} and {1}={0}".format(x,y))
+# else:
+#   print("This is the bigget value between {0} and {1}={1}".format(x,y))
+
+
+# 4.7.2 # ________ Example 3 _____________
+# x=int(input(("Enter the first number")))
+# y=int(input(("Enter the second number")))
+# print("This is the bigget value ={0}".format(x,y)) if x>y else print("This is the bigget {1}".format(x,y))
+
+# ----Example 2----&&&&&&&&& Find the given number is even or odd.
+# x=int(input(("Enter the number")))
+# if x%2==0:
+#   print("This is even number")
+# else:
+#   print("This is odd number")
+# This is short hand rule:-
+# print("This is even number") if x%2==0 else print("This is odd number")
