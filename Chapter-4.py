@@ -144,7 +144,7 @@ print("Welcome python chapter-4")
 # y=int(input(("Enter the second number")))
 # print("This is the bigget value ={0}".format(x,y)) if x>y else print("This is the bigget {1}".format(x,y))
 
-# ----Example 2----&&&&&&&&& Find the given number is even or odd.
+# ----Example 4----&&&&&&&&& Find the given number is even or odd.
 # x=int(input(("Enter the number")))
 # if x%2==0:
 #   print("This is even number")
@@ -152,3 +152,112 @@ print("Welcome python chapter-4")
 #   print("This is odd number")
 # This is short hand rule:-
 # print("This is even number") if x%2==0 else print("This is odd number")
+
+# 4.7.3 #----Example 1---- &&&& Find Biggest value of given 3 numbers from the command line.
+# a=int(input("Enter the first numbers"))
+# b=int(input("Enter the second numbers"))
+# c=int(input("Enter the third numbers"))
+# if((a<b)&(b>c)):
+#   print("{1} is greater than {0} and {2}".format(a,b,c))
+# elif(c<a):
+#   print("{0} is greater than {1} and {2}".format(a,b,c))
+# else:
+#   print("{2} is greater than {0} and {1}".format(a,b,c))
+
+# 4.7.3 #----Example 2---- &&&& Program to find given value is Positive or negative or equal to zero.
+
+# a=int(input("Enter your numbers:"))
+# if(a>0):
+#   print("Number is Positive.")
+# elif a<0:
+#   print("Number is Negative")
+# else:
+#   print("Numerb is zero")
+
+
+#4.7.3 #----Example 3---- &&&& Program to find given value is Positive or negative or equal to zero.
+
+# a=int(input("Enter your grade:"))
+# if(a>=90):
+#   print("Your grade is A+")
+# elif(90>a>=80):
+#   print("Your grade is A")
+# elif(80>a>=70):
+#   print("Your grade is B")
+# elif(70>a>=60):
+#   print("Your grade is C")
+# else:
+#   print("Fail")
+
+#4.7.3 #----Example 4---- &&&& Program to find your grade according to following condition.
+
+# a=int(input("Enter Your Grade:"))
+# if(a>=90):
+#   print("Your grade is A+")
+# else:
+#   if(a>=80):
+#     print("Your grade is A")
+#   else:
+#     if(a>=70):
+#       print("Your grade is B")
+#     else:
+#       if(a>=60):
+#         print("Your grade is C")
+#       else:
+#         print("FAIL")
+
+#4.7.3 #----Example 5---- &&&& Program to find given year is leap year or not.
+
+# a=int(input("Enter your Year"))
+# if(a%4==0):
+#   if(a%100==0):
+#     if(a%400==0):
+#         print("Year {} is a leap year".format(a))
+#   else:
+#     print("Year {} is not a leap year".format(a))
+# else:
+#   print("Year {} is not a leap year".format(a))
+
+#4.8 #----Example 1---- &&&& Program to print 1 to 5 natural numbers.
+
+# count=0
+# while count<=5:
+#   print(count)
+#   count=count+1
+
+#4.8 #----Example 2---- &&&& Program to print sum of n natural numbers (sum=1+2+3+...+n)
+
+# num=int(input("Enter the number"))
+# count=0
+# sum=0
+# while count<=num:
+#   sum=count+sum
+#   count=count+1
+# print("The sum of {} natural number is {}".format(num,sum))
+
+#4.8 #----Example 3---- &&&& Program to find sum of all even and odd numbers up to specified number.
+
+# num=int(input("Enter the number"))
+# even=0
+# odd=0
+# sum=0
+# while (sum<=num):
+#   if (sum%2==0):
+#     even=even+sum
+#   if (sum%2!=0):
+#     odd=odd+sum
+#   sum=sum+1
+# print("The sum of even natural numbers is:",even)
+# print("The sum of odd natural numbers is:",odd)
+
+#4.8 #----Example 4---- &&&& Program to find factorial of any input number.
+
+# num=int(input("Enter the number"))
+# count=1
+# fac=1
+# while count<=num:
+#   fac=count*fac
+#   count=count+1
+# print("The factorial of {} natural number is {}".format(num,fac))
+
+#4.8 #----Example 5---- &&&& Program to input any number from the keyboard and check it number is palindrome or not
