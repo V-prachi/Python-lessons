@@ -261,3 +261,119 @@ print("Welcome python chapter-4")
 # print("The factorial of {} natural number is {}".format(num,fac))
 
 #4.8 #----Example 5---- &&&& Program to input any number from the keyboard and check it number is palindrome or not
+
+# num=int(input("Enter you palidrome number:"))
+# n=num
+# rev=0
+# while num:
+#   pro=num%10
+#   rev=rev*10+pro
+#   num=num//10
+# if(n==rev):
+#   print("This number is palindrome")
+# else:
+#   print("This number is not a palindrome")
+
+#4.8.1 --Example 6- This will print the woed 'hello' indefinitely because the condition will always be true.
+# while True:
+#   print("hello prachi")
+# for exit short cut is Ctrl+C
+
+#4.8.1 --Example 7- This will print the word 1 indefinitely becaues the codition will always be true.
+# num=1
+# while num<2:
+#   print(num)
+
+#4.8.1 --Example 8- Program will print the pattern as shown in the output.
+
+# i=0
+# while i<=3:
+#   j=0
+#   while j<=4:
+#     print(j*i,end=" ")
+#     j+=1
+#   print()
+#   i+=1
+  
+#4.8.2 --Example 9-Program to use While loop with statement in one line.
+# i=0
+# while i<=6:i+=1; print("🙏 Namaste Bharat!")    # while condition:incre/decre;statement
+
+#4.8.3 --Example 10- print 1 to 5 Number by using While with else claues.
+# i=0
+# while i<=5:
+#   print(i)
+#   i+=1
+# else:
+#   print("This loop is finished")
+
+#4.8.3 --Example 11- print 10 to 6 Number by using Wjhile with else clause.
+# x=10
+# while x>5:
+#   print("value of x is:",x)
+#   x-=1 
+# else:
+#   print("value of x is less than 5 so this loop is finished.")
+
+# -------------------- 4.9 --------- For loop ----------------------------------------------------
+#4.9 --Example 1- Program to print characters present in the given string.
+# str='VPrachi'
+# for i in str:
+#   print(i)
+
+#4.9 --Example 2- Program to display the use of 'for' Loop with string,List and Tuple Dictionary Iteration.
+# ----------------- For loop using strings ----------------------
+# print("*"*70)
+# print("\t \t For loop using strings")
+# str='DGukesh'
+# for i in str:
+#   print(i)
+# # ----------------- For loop using List ----------------------
+# print("*"*70)
+# print("\t \t For loop using List")
+# lst=['VAnand','DGukesh','VPrachi','RPraggnanandhaa']
+# for i in lst:
+#   print(i)
+
+# # ----------------- For loop using Tuple ----------------------
+# print("*"*70)
+# print("\t \t For loop using List")
+# tup=("Indore","Surat","Navi Mumbai","Ahmedabad","Bhopal")
+# for i in tup:
+#   print(i)
+
+#4.9 --Example 3- Program to print characters present in string index wise.
+# strn="VPrachi"
+# n=0
+# for i in strn:
+#   print("{} is a index of {}".format(n,i))
+#   n+=1
+
+#4.9 --Example 4- Using only one argument in range().
+# for i in range(6):
+#   print(i,end=" ")
+
+#4.9 --Example 5- Using two arguments in range().
+# for i in range(5,16):
+#   print(i,end=" ")
+
+#4.9 --Example 6- Using three arguments in range() function. Printing all odd numbers between 1 to 100 using range()
+# for i in range(1,100,2):
+#   print(i, end=" ")
+
+#4.9 --Example 7- Program to print sum of even number series up to 10
+# sum=0
+# for i in range(0,11,2):
+#   sum=sum+i
+# print("Total of 10 even numbers:",sum)
+
+#4.9 --Example 8- Program to display the use of Nested for loop
+# for i in range(6):
+#   for j in range(1,2):
+#     print("This is j",j)
+#   print("This is i",i)
+#   print("*"*4)
+#4.9 --Example 9- program to display the pattern as shown in the below figure
+
+
+
