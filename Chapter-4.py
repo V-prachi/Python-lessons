@@ -374,6 +374,114 @@ print("Welcome python chapter-4")
 #   print("This is i",i)
 #   print("*"*4)
 #4.9 --Example 9- program to display the pattern as shown in the below figure
+# num=int(input("Enter your row number:"))
+# for i in range(1,num+1):
+#   for j in range(1,i+1):
+#     print("*",end="  ")
+#   print()
+
+#4.9 --Example 10- program to display *' below form.
+# num=int(input("Enter your row number:"))
+# for i in range(1,num+1):
+#   for j in range(0,num-i):
+#     print(""*(num-1),end="  ")
+#   print("*   "*i)
+
+#4.9 --Example 11- program to display *' below form.
+# num=int(input("Enter your row number:"))
+# for i in range(1,num+1):
+#   for j in range(0,num-i):
+#     print(" ",end="")
+#   print("*"*i)
+
+#4.9 --Example 12- Write a program to display * in 'N' style.
 
 
+#4.9.3 --Example 13-
+# num=int(input("Enter your row number:"))
+# for i in range(1,num):
+#   print(i)
+# else:
+#   print('FOR LOOP OVER')
 
+#4.10.3 --Example 1: Program that dislplay the use of break statement inside 'while' loop
+# num=int(input("Enter the value:"))
+# i=1
+# while i<num:
+#   print("i value:",i)
+#   if(i>=5):
+#     break
+#   i+=1
+# print("Now, i is greater than 5")
+
+#4.10.3 --Example 2: Program that dislplay the use of break statement inside 'for' loop
+# num=int(input("Enter the value:"))
+# for i in range(1,num):
+#   print("i value:",i)
+#   if(i>=5):
+#     break
+# print("Now, i is greater than 5")
+
+#4.10.3 --Example 3: Another Program that displaly the use of break statement inside 'for' loop.
+# name=input("Enter the Character:")
+# for i in name:
+#   print(i)
+#   if("h"==i):
+#     break
+
+#4.10.3 --Example 4: Another Program that displaly the use of break statement inside 'While' loop.
+# num=int(input("Enter the Character:"))
+# i=0
+# while i<=num:
+#   print(i)
+#   if(i>=5):
+#     print("you loose battle")
+#     break
+#   i+=1
+# else:
+#   print("You Win battle")
+
+#4.11 --Example 1:Program that display the use of 'continue' statement inside 'for' loop.
+# name=input("Enter the Character:")
+# for i in name:
+#   if "a"==i:
+#     continue
+#   print(i)
+
+#4.11 --Example 2:Program that display the use of 'continue' statement inside 'while' loop.
+
+# num=int(input("Enter the Number:"))
+# while num>0:
+#   if(num<5):
+#     continue
+#   print("This is greater than 5",num)
+#   num-=1
+
+# 4.12 --Example 2:Another python program that display the use of Pass stetement.
+# name=input("Enter the Character:")
+# for i in name:
+#   if "a"==i:
+#     pass  # only fill the placeholder not skip or break and pass the execution
+#   print(i)
+
+# 4.13 --Example 1: Python program that display the use of else clause with while LookupError
+# x=int(input("Enter between -infinite to 9 number"))
+# while x>=0:
+#   print("positive integer",x)
+#   if(x==9):
+#     break
+#   x+=1
+# else:
+#   print("This is not positive integer",x)
+
+
+# 4.14 --Example 1: Python program that display the use of else clause with while LookupError
+# x=int(input("Enter between -infinite to 9 number"))
+# assert x<9,"This is above 9"
+# while x>=0:
+#   print("positive integer",x)
+#   if(x==9):
+#     break
+#   x+=1
+# else:
+#   print("This is not positive integer",x)
